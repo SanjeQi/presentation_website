@@ -1,8 +1,8 @@
 :root {
-  --page-1-one-color: steelblue;
-  --page-2-one-color: tan;
-  --page-3-one-color: teal;
-  --page-4-one-color: slateblue;
+  --page-1-one-color: #b696f6;
+  --page-2-one-color: #9982e5;
+  --page-3-one-color: #7e7af6;
+  --page-4-one-color: #7174ff;
   --animate-speed: 2s;
 }
 
@@ -67,23 +67,22 @@ body {
 
 #page-1 h1 {
   transform: translateY(-2000px);
-  animation: animation1 1s forwards ease-in;
-}
-#page-1 p {
-  transform: translateX(-2000px);
-  animation: animation2 1s forwards ease-in;
+  animation: animation1 2s forwards ease-in;
 }
 
-/* Keyfames */
+#page-1 p {
+  transform: translateX(-2000px);
+  animation: animation2 2s forwards ease-in;
+}
 
 @keyframes animation1 {
   to {
-    transform: translateY(0px);
+    transform: translateY(0);
   }
 }
 
 @keyframes animation2 {
   to {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 }
